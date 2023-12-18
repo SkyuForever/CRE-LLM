@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T02:17:22.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="g8kVcz6eGWSNx6cgrNCO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T02:37:57.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="qh9YRlQhh6uzIdTlCmus" version="22.1.11" type="github">
   <diagram name="第 1 页" id="e0tXGLQbWe1YhPj0isI4">
-    <mxGraphModel>
+    <mxGraphModel dx="906" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xehYE8avdC63y5gzJNJH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xehYE8avdC63y5gzJNJH-1" target="xehYE8avdC63y5gzJNJH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-1" value="FinRE&lt;br&gt;SanWen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-2" value="RE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xehYE8avdC63y5gzJNJH-3" target="xehYE8avdC63y5gzJNJH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-3" value="请从给定实体的句子中抽取出他们之间的关系&lt;br&gt;input: [东方航空]AH股临时停牌传将与[上航]合并。(&amp;nbsp;[东方航空], ? ,[上航])&lt;br&gt;output:&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="511.88" width="200" height="86.25" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xehYE8avdC63y5gzJNJH-4" target="xehYE8avdC63y5gzJNJH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-4" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="522.5" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xehYE8avdC63y5gzJNJH-5" value="&amp;nbsp;(&amp;nbsp;[东方航空], unknown ,[上航])" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
