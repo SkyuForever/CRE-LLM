@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T01:50:14.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="3RJMza0cmdf_vrfNPa2e" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T02:00:11.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="hUTNetuNeGQLHtoKSqmh" version="22.1.18" type="github">
   <diagram name="第 1 页" id="gY_yhv296UeG84Yx_Pr5">
     <mxGraphModel dx="906" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qF69uGLi65idaUPn_qMR-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="500" height="370" as="geometry" />
+        </mxCell>
         <mxCell id="qF69uGLi65idaUPn_qMR-69" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="607" y="300" width="330" height="450" as="geometry" />
         </mxCell>
@@ -98,11 +101,11 @@
         <mxCell id="qF69uGLi65idaUPn_qMR-36" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;fontFamily=Times New Roman;fontSize=15;fontStyle=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="320" y="604.5" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qF69uGLi65idaUPn_qMR-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qF69uGLi65idaUPn_qMR-37" target="qF69uGLi65idaUPn_qMR-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qF69uGLi65idaUPn_qMR-37" value="Inputs Embedding" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="664" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qF69uGLi65idaUPn_qMR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" edge="1" parent="1" source="qF69uGLi65idaUPn_qMR-37" target="qF69uGLi65idaUPn_qMR-36">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qF69uGLi65idaUPn_qMR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" edge="1" parent="1" source="qF69uGLi65idaUPn_qMR-43" target="qF69uGLi65idaUPn_qMR-37">
           <mxGeometry relative="1" as="geometry" />
@@ -167,6 +170,9 @@
         </mxCell>
         <mxCell id="qF69uGLi65idaUPn_qMR-75" value="LoRA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="525" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qF69uGLi65idaUPn_qMR-88" value="Open-source LLMs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
