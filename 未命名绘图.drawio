@@ -1,23 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:57:26.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="eknn1pgYYd_aKw1a7kVG" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T19:30:31.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="M2_oOShuDjAc__9rmCqg" version="22.1.21" type="github">
   <diagram name="第 1 页" id="e0tXGLQbWe1YhPj0isI4">
     <mxGraphModel dx="906" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;AH股临时停牌传将与&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="270" y="80" width="160" height="40" as="geometry" />
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="640" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-5" value="东方航空" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;strokeColor=#FF9933;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="90" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;目前拥有&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="326.25" y="80" width="67.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-7" value="上航" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;strokeColor=#FF9933;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="450" y="80" width="80" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-5" value="国电集团" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;strokeColor=#FF9933;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="230" y="80" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-9" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;Relation: unknown&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#FF8000;strokeColor=#FF0000;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="295" y="190" width="125" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-7" value="国电电力" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;strokeColor=#FF9933;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-13" value="合并" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="550" y="80" width="40" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-9" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;Relation：拥有&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#FF8000;strokeColor=#FF0000;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="136.25" y="220" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-13" value="、自治区" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="490" y="80" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T14ChnWQ33sPh7HlbQXI-14" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;A Natural Language Sentence&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="255" y="30" width="210" height="40" as="geometry" />
@@ -25,50 +28,41 @@
         <mxCell id="T14ChnWQ33sPh7HlbQXI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=16;fontStyle=1" parent="1" source="T14ChnWQ33sPh7HlbQXI-19" target="T14ChnWQ33sPh7HlbQXI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-19" value="东方航空" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="162.5" y="240" width="100" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-19" value="国电集团" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="56.25" y="280" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T14ChnWQ33sPh7HlbQXI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=16;fontStyle=1" parent="1" source="T14ChnWQ33sPh7HlbQXI-20" target="T14ChnWQ33sPh7HlbQXI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T14ChnWQ33sPh7HlbQXI-20" value="上航" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="457.5" y="240" width="100" height="40" as="geometry" />
+        <mxCell id="T14ChnWQ33sPh7HlbQXI-20" value="国电电力" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="246.25" y="280" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jTw0942X2GlWAdndkURe-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;Relation Extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="390" y="130" width="140" height="40" as="geometry" />
+          <mxGeometry x="393.75" y="130" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FFE6CC;strokeColor=#D79B00;endWidth=29;endSize=8.15;width=15;fontSize=16;" edge="1" parent="1">
+        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FFE6CC;strokeColor=#D79B00;endWidth=29;endSize=8.15;width=15;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="359.5" y="120" as="sourcePoint" />
             <mxPoint x="360" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fjn9wb1FyUSR9v3z9UPt-12" target="Fjn9wb1FyUSR9v3z9UPt-15">
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-1" value="据了解，" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="80" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-2" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;Relation：被拥有&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#FF8000;strokeColor=#FF0000;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="443.75" y="220" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="zyhEfrtEaardUeQ5Lzcw-6" target="zyhEfrtEaardUeQ5Lzcw-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-12" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;FinRE&lt;br&gt;SanWen&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="499.06000000000006" width="120" height="60" as="geometry" />
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-6" value="国电电力" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="366.25" y="280" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-13" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;RE&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#994C00;" vertex="1" parent="1">
-          <mxGeometry x="40" y="514.0600000000001" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fjn9wb1FyUSR9v3z9UPt-15" target="Fjn9wb1FyUSR9v3z9UPt-17">
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="zyhEfrtEaardUeQ5Lzcw-7" target="zyhEfrtEaardUeQ5Lzcw-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-15" value="请从给定实体的句子中抽取出他们之间的关系&lt;br&gt;input: &lt;font color=&quot;#cc6600&quot;&gt;[东方航空]AH股临时停牌传将与[上航]合并。(&amp;nbsp;[东方航空], ? ,[上航])&lt;/font&gt;&lt;br&gt;output:&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;strokeColor=#FFB570;" vertex="1" parent="1">
-          <mxGeometry x="240" y="490" width="200" height="78.12" as="geometry" />
-        </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fjn9wb1FyUSR9v3z9UPt-17" target="Fjn9wb1FyUSR9v3z9UPt-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-17" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;LLM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="470" y="496.56000000000006" width="90" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-18" value="&amp;nbsp;(&amp;nbsp;[东方航空], unknown ,[上航])" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="580" y="514.0600000000001" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fjn9wb1FyUSR9v3z9UPt-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Instruction Tunning&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="460" width="140" height="30" as="geometry" />
+        <mxCell id="zyhEfrtEaardUeQ5Lzcw-7" value="国电集团" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=#ffcc99;strokeColor=#FF3333;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="556.25" y="280" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
