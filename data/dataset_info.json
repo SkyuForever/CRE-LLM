@@ -1,0 +1,56 @@
+{
+  "FinRE_train": {
+    "file_name": "FinRE/train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "FinRE_valid": {
+    "file_name": "FinRE/valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "FinRE_test": {
+    "file_name": "FinRE/test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "SanWen_train": {
+    "file_name": "SanWen/train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "SanWen_valid": {
+    "file_name": "SanWen/valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  },
+  "SanWen_test": {
+    "file_name": "SanWen/test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": ""
+    }
+  }
+}
