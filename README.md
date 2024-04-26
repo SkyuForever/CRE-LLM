@@ -1,6 +1,8 @@
 # CRE-LLM
 <h4 >CRE-LLM: A Domain-Specific Chinese Relation Extraction Framework with Fine-tuned Large Language Model</h4>
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://arxiv.org/abs/2310.08975)
+
 \[ English | [中文](README_zh.md) \]
 
 ## LLaMA Board: A One-stop Web UI for Getting Started with LLaMA Factory
