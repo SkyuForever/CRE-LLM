@@ -11,8 +11,6 @@ Launch **LLaMA Board** via `CUDA_VISIBLE_DEVICES=0 python src/train_web.py`. (mu
 
 Here is an example of altering the self-cognition of an instruction-tuned language model within 10 minutes on a single GPU.
 
-https://github.com/hiyouga/LLaMA-Factory/assets/16256802/6ba60acc-e2e2-4bec-b846-2d88920d5ba1
-
 ## Supported Models
 
 | Model                                                    | Model size                  | Default module    | Template  |
