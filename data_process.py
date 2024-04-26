@@ -38,8 +38,7 @@ for line in lines:
         entity_relation = f'([{parts[0]}],?,[{parts[1]}])'
         input_text = bracket_entities(input_text, entities)
         input_text=input_text+' '+entity_relation
-        # output = f'([{parts[0]}],{parts[2]},[{parts[1]}])'
-        output = f'{parts[2]}'
+        output = f'([{parts[0]}],{parts[2]},[{parts[1]}])'
         
         # 如果input_text已经存在于字典中，将output合并
         if input_text in output_dict:
