@@ -15,7 +15,7 @@ def data_split(full_list, ratio, shuffle=False):
 
 
 # 从TXT文件中读取数据
-with open('data/SanWen/train.txt', 'r', encoding='utf-8') as file:
+with open('data/FinRE/train.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 data = []
@@ -41,7 +41,6 @@ for line in lines:
         # output = f'([{parts[0]}],{parts[2]},[{parts[1]}])'
         output = f'{parts[2]}'
         
-        
         # 如果input_text已经存在于字典中，将output合并
         if input_text in output_dict:
             output_dict[input_text] = output_dict[input_text] + ',' + output
@@ -60,15 +59,5 @@ for input_text, output in output_dict.items():
 # 将数据转化为JSON格式
 json_data = json.dumps(data, ensure_ascii=False, indent=2)
 # # 将JSON数据写入文件
-with open('data/SanWen/train3_80.json', 'w', encoding='utf-8') as output_file:
+with open('data/FinRE/train.json', 'w', encoding='utf-8') as output_file:
      output_file.write(json_data)
-
-#按比例分割训练数据
-sub_data1, sub_data2 = data_split(data, ratio=0.8, shuffle=True)
-json_data1 = json.dumps(sub_data1, ensure_ascii=False, indent=2)
-json_data2 = json.dumps(sub_data2, ensure_ascii=False, indent=2)
-
-with open('data/SanWen/train3_80.json', 'w', encoding='utf-8') as output_file:
-    output_file.write(json_data1)
-with open('data/SanWen/train_80.json', 'w', encoding='utf-8') as output_file:
-     output_file.write(json_data2)
