@@ -115,10 +115,10 @@ Please refer to `data/example_dataset` for checking the details about the format
 ### Dependence Installation (optional)
 
 ```bash
-git clone https://github.com/hiyouga/LLaMA-Factory.git
-conda create -n llama_factory python=3.10
-conda activate llama_factory
-cd LLaMA-Factory
+git clone https://github.com/SkyuForever/CRE-LLM.git
+conda create -n CRE-LLM python=3.10
+conda activate CRE-LLM
+cd CRE-LLM
 pip install -r requirements.txt
 ```
 
