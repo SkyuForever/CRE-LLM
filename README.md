@@ -95,7 +95,7 @@ CRE-LLM/
 
 ## Fine-tuning and Evaluation
 
-The following is an example of LLM fine-tuning and evaulate on FinRe and SanWen. We provide a variety of LLMs for CRE, such as [LLaMA-2](https://huggingface.co/meta-llama), [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B) and [Baichuan2](https://github.com/baichuan-inc/Baichuan2).
+The following is an example of LLM fine-tuning and evaulate on FinRe and SanWen. We provide a variety of LLMs for our framework, as follows:
 
 | Model                                                    | Model size                  | Default module    | Template  |
 | -------------------------------------------------------- | --------------------------- | ----------------- | --------- |
