@@ -14,7 +14,6 @@
 - Accelerate 0.21.0+
 - PEFT 0.4.0+
 - TRL 0.7.1+
-- sentencepiece, protobuf, tiktoken and jieba
 
 And **powerful GPUs**!
 
