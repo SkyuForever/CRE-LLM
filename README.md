@@ -95,7 +95,7 @@ CRE-LLM/
 
 ## Fine-tuning and Evaluation
 
-The following is an example of LLM fine-tuning and evaulate on FinRe and SanWen. We provide a variety of LLMs for our framework, as follows:
+The following is an example of LLM fine-tuning and evaulation on FinRe and SanWen. We provide a variety of LLMs for our framework, as follows:
 
 | Model                                                    | Model size                  | Default module    | Template  |
 | -------------------------------------------------------- | --------------------------- | ----------------- | --------- |
@@ -108,7 +108,7 @@ The following is an example of LLM fine-tuning and evaulate on FinRe and SanWen.
 >
 > Remember to use the SAME template in training and inference.
 >
-> For more information please refer to [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning).
+> For more information of fine-tuning, please refer to [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning).
 
 (1) **Supervised Fine-Tuning LLM for triple Generation**
 
