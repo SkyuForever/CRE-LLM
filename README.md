@@ -1,27 +1,15 @@
 # CRE-LLM
 <h4 >CRE-LLM: A Domain-Specific Chinese Relation Extraction Framework with Fine-tuned Large Language Model</h4>
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://arxiv.org/abs/2310.08975)
-
-\[ English | [中文](README_zh.md) \]
-
 ##  Overview 
 
 ![](./figs/Figure2.drawio.png)
-
-## Supported Models
-
-| Model                                                    | Model size                  | Default module    | Template  |
-| -------------------------------------------------------- | --------------------------- | ----------------- | --------- |
-| [LLaMA-2](https://huggingface.co/meta-llama)             | 7B/13B/70B                  | q_proj,v_proj     | llama2    |
-| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)   | 7B/13B                      | W_pack            | baichuan2 |
-| [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B)         | 6B                          | query_key_value   | chatglm2  |
 
 ## Requirement
 
 - Python 3.8+ and PyTorch 1.13.1+
 - 🤗Transformers, Datasets, Accelerate, PEFT and TRL
-- sentencepiece, protobuf and tiktoken
+- sentencepiece, protobuf, tiktoken and jieba
 
 And **powerful GPUs**!
 
@@ -50,7 +38,7 @@ Experiments are conducted on 2 CRE benchmarks FinRE, SanWen.
 CRE-LLM/
 └── data/
     ├── FinRE                  
-        ├── train.json
+        ├── train.txt
         ├── valid.txt      
         ├── test.txt
         └── relation2id.txt                                                           
@@ -100,7 +88,20 @@ CRE-LLM/
 
 ## Fine-tuning and Evaluation
 
-The following is an example of [LLaMa2-7b](README.md) fine-tuning on FinRE and CWQ, respectively. We also provide a variety of LLMs (including [LLaMa2-7b](scripts/README_LLaMa2-7b.md), [LLaMa2-13b](scripts/README_LLaMa2-13b.md), [ChatGLM2-6b](scripts/README_ChatGLM2-6b.md), [Baichuan2-7b](scripts/README_Baichuan2-7b.md), [Baichuan2-13b](scripts/README_Baichuan2-13b.md)) fine-tuning scripts (num_beam = 8).
+The following is an example of LLM fine-tuning and evaulate on FinRe and SanWen. We provide a variety of LLMs for CRE, such as [LLaMA-2](https://huggingface.co/meta-llama), [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B) and [Baichuan2](https://github.com/baichuan-inc/Baichuan2). Their parameters are set as follows:
+
+| Model                                                    | Model size                  | Default module    | Template  |
+| -------------------------------------------------------- | --------------------------- | ----------------- | --------- |
+| [LLaMA-2](https://huggingface.co/meta-llama)             | 7B/13B/70B                  | q_proj,v_proj     | llama2    |
+| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)   | 7B/13B                      | W_pack            | baichuan2 |
+| [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B)         | 6B                          | query_key_value   | chatglm2  |
+
+> [!NOTE]
+> For the "base" models, the --template argument can be chosen from default, alpaca, vicuna etc. But make sure to use the corresponding template for the "instruct/chat" models.
+>
+> Remember to use the SAME template in training and inference.
+>
+> For more information please refer to [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning).
 
 (1) **Supervised Fine-Tuning LLM for triple Generation**
 
@@ -132,9 +133,7 @@ CUDA_VISIBLE_DEVICES=3 nohup python -u src/train_bash.py --model_name_or_path pa
 
 (2) **Evaulate CRE result**
 
-- FinRE: 
-
-Run `python parse_sparql_webqsp.py` and the augmented dataset files are saved as `data/FinRE/test[train].json`. 
+Run `python eval.py`
 
 
 ## Citation
