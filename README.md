@@ -67,11 +67,11 @@ CRE-LLM/
 
 - FinRE: 
 
-Run `python parse_sparql_webqsp.py` and the augmented dataset files are saved as `data/FinRE/test[train].json`. 
+Run `python data_process.py` and the augmented dataset files are saved as `data/FinRE/test[train].json`. 
 
 - SanWen 
 
-Run `python parse_sparql_cwq.py` and the augmented dataset files are saved as `data/SanWen/test[train].json`.
+Run `python data_process.py` and the augmented dataset files are saved as `data/SanWen/test[train].json`.
 
 > [!NOTE]
 > Please update `data/dataset_info.json` to use your custom dataset. About the format of this file, please refer to `data/README.md`.
