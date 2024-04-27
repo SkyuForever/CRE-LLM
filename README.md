@@ -5,11 +5,10 @@
 
 \[ English | [中文](README_zh.md) \]
 
-## LLaMA Board: A One-stop Web UI for Getting Started with LLaMA Factory
+##  Overview 
 
-Launch **LLaMA Board** via `CUDA_VISIBLE_DEVICES=0 python src/train_web.py`. (multiple GPUs are not supported yet)
-
-Here is an example of altering the self-cognition of an instruction-tuned language model within 10 minutes on a single GPU.
+![](./figs/F1.drawio.png)
+![](./figs/F2.drawio.png)
 
 ## Supported Models
 
@@ -127,6 +126,8 @@ If you want to enable the quantized LoRA (QLoRA) on the Windows platform, you wi
 ```bash
 pip install https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.39.1-py3-none-win_amd64.whl
 ```
+
+Here is an example of altering the self-cognition of an instruction-tuned language model within 10 minutes on a single GPU.
 
 ### Train on a single GPU
 
