@@ -7,8 +7,8 @@
 
 ##  Overview 
 
-![](./figs/F1.drawio.png)
-![](./figs/F2.drawio.png)
+![](./figs/Figure1.drawio.png)
+![](./figs/Figure2.drawio.png)
 
 ## Supported Models
 
