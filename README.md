@@ -9,11 +9,12 @@
 
 - Python 3.8+
 - PyTorch 1.13.1+
-- 🤗Transformers 4.31.0+
-- Datasets 2.12.0+
-- Accelerate 0.21.0+
-- PEFT 0.4.0+
-- TRL 0.7.1+
+- 🤗Transformers 4.37.2+
+- Datasets 2.14.3+
+- Accelerate 0.27.2+
+- PEFT 0.10.0+
+- TRL 0.8.1+
+- gradio>=4.0.0
 
 And **powerful GPUs**!
 
