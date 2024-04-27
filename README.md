@@ -141,8 +141,3 @@ CUDA_VISIBLE_DEVICES=3 nohup python -u src/train_bash.py --model_name_or_path pa
 (2) **Evaulate CRE result**
 
 Run `python eval.py` to get the Accuracy, Recall and F1 score.
-
-## Acknowledgement
-
-This repo benefits from [PEFT](https://github.com/huggingface/peft), [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning), [SimCSE](https://github.com/princeton-nlp/SimCSE) and [DECAF](https://github.com/awslabs/decode-answer-logical-form). Thanks for their wonderful works.
-
