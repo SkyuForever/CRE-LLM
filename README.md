@@ -7,8 +7,13 @@
 
 ## Requirement
 
-- Python 3.8+ and PyTorch 1.13.1+
-- 🤗Transformers, Datasets, Accelerate, PEFT and TRL
+- Python 3.8+
+- PyTorch 1.13.1+
+- 🤗Transformers 4.31.0+
+- Datasets 2.12.0+
+- Accelerate 0.21.0+
+- PEFT 0.4.0+
+- TRL 0.7.1+
 - sentencepiece, protobuf, tiktoken and jieba
 
 And **powerful GPUs**!
@@ -32,7 +37,7 @@ Experiments are conducted on 2 CRE benchmarks FinRE, SanWen.
 
 ### FinRE
 
-[FinRE](https://www.microsoft.com/en-us/research/publication/the-value-of-semantic-parse-labeling-for-knowledge-base-question-answering-2/) dataset has been downloaded under `data/FinRE`.
+[FinRE](https://github.com/thunlp/Chinese_NRE/tree/master/data/FinRE) dataset has been downloaded under `data/FinRE`.
 
 ```
 CRE-LLM/
@@ -46,7 +51,7 @@ CRE-LLM/
 
 ### SanWen
 
-[SanWen](https://www.dropbox.com/sh/7pkwkrfnwqhsnpo/AACuu4v3YNkhirzBOeeaHYala) dataset has been downloaded under `data/SanWen`.
+[SanWen](https://github.com/thunlp/Chinese_NRE/tree/master/data/SanWen) dataset has been downloaded under `data/SanWen`.
 ```
 CRE-LLM/
 └── data/
@@ -72,7 +77,9 @@ Run `python parse_sparql_cwq.py` and the augmented dataset files are saved as `d
 > [!NOTE]
 > Please update `data/dataset_info.json` to use your custom dataset. About the format of this file, please refer to `data/README.md`.
 >
-> You can also get the CRE-LLM processed data from our project directly, which should be set in `data/`.
+> You can also get the CRE-LLM processed data from our project directly.
+>
+> Please remember to set it in `data/`.
 ```
 CRE-LLM/
 └── data/
@@ -133,7 +140,7 @@ CUDA_VISIBLE_DEVICES=3 nohup python -u src/train_bash.py --model_name_or_path pa
 
 (2) **Evaulate CRE result**
 
-Run `python eval.py` to get the accuracy, Recall and F1 score.
+Run `python eval.py` to get the Accuracy, Recall and F1 score.
 
 ## Citation
 
